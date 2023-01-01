@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eee;
+  margin: 0 auto;
+  padding: 0 0 15px;
+  overflow: hidden;
+}
+.site-name {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #2196f3;
+  padding: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-bottom: 5px;
+}
+.game-info {
+  background-color: white;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.game-info span {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+}
+.start {
+  background-color: #009688b8;
+  padding: 15px;
+  text-align: center;
+  width: 930px;
+  margin: 30px auto 0;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.current-word {
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 38px;
+  font-weight: bold;
+  color: #2196f3;
+  user-select: none;
+}
+.input-area {
+  padding: 10px;
+  width: 930px;
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  border: 1px solid #2196f3;
+  caret-color: #2196f3;
+  font-size: 20px;
+}
+.input-area:focus {
+  outline: none;
+}
+.upcoming-words {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  padding: 18px;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.upcoming-words span {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  /* margin: 0 10px 10px; */
+  font-size: 16px;
+  letter-spacing: 1.2px;
+  user-select: none;
+}
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: white;
+  width: 930px;
+}
+.score span {
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 16px;
+}
+.result {
+  padding: 15px;
+  text-align: center;
+  width: 930px;
+  margin: 30px auto 0;
+  font-weight: bold;
+  font-size: 38px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.result .bad {
+  color: red;
+}
+.result .perfect {
+  color: green;
+}
